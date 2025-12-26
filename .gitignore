@@ -1,0 +1,25 @@
+# Maven/Spring Boot
+/research-assistant/target/
+/research-assistant/.mvn/wrapper/maven-wrapper.jar
+/research-assistant/.mvn/timing.properties
+/research-assistant/*.log
+/research-assistant/.DS_Store
+
+# IntelliJ IDEA
+/research-assistant/.idea/
+/research-assistant/*.iml
+
+# VS Code
+/QuickResearch/.vscode/*
+!/QuickResearch/.vscode/extensions.json
+
+# Chrome extension build artifacts
+/QuickResearch/node_modules/
+/QuickResearch/dist/
+/QuickResearch/build/
+/QuickResearch/*.log
+/QuickResearch/.DS_Store
+
+# OS junk
+.DS_Store
+Thumbs.db
