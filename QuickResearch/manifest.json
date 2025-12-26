@@ -1,0 +1,42 @@
+{   
+    "manifest_version": 3,
+    "name": "Quick Research ",
+    "version": "1.0",
+    "description": "AI -powered research assistant for Students.",
+    "icons": {
+        "16": "quick.png",
+        "32": "quick.png",
+        "48": "quick.png",
+        "128": "quick.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "sidePanel",
+        "scripting"
+    ],
+    "action":{
+        "default_title": "Quick Research ",
+        "default_icon": {
+            "16": "quick.png",
+            "32": "quick.png",
+            "48": "quick.png",
+            "128": "quick.png"
+        }
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+        "https://localhost:8080/*",
+        "<all_urls>"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    }
+
+
+}
