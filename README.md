@@ -1,0 +1,2 @@
+# QuickResearch
+Ai research assistant
