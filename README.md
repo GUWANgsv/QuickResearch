@@ -1,2 +1,2 @@
 # QuickResearch
-Ai research assistant
+Ai research assistant(spring framework+js+gemini)
